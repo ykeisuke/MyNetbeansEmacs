@@ -1,75 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keymap-preferences PUBLIC "-//NetBeans//DTD Keymap Preferences 1.0//EN" "http://www.netbeans.org/dtds/KeymapPreferences-1_0.dtd">
 <keymap-preferences>
-    <action id="org-netbeans-modules-javahelp-HelpAction">
-        <shortcut shortcut_string="F1"/>
-    </action>
     <action id="org-cakephp-netbeans-ui-actions-CakePhpGoToAllAction">
-        <shortcut shortcut_string="SD-G A"/>
         <shortcut shortcut_string="D-J A"/>
     </action>
     <action id="org-cakephp-netbeans-ui-actions-CakePhpGoToAppBehaviorsAction">
-        <shortcut shortcut_string="SD-G D-B"/>
         <shortcut shortcut_string="D-J D-B"/>
     </action>
     <action id="org-cakephp-netbeans-ui-actions-CakePhpGoToAppComponentsAction">
         <shortcut shortcut_string="D-J D-O"/>
-        <shortcut shortcut_string="SD-G D-O"/>
     </action>
     <action id="org-cakephp-netbeans-ui-actions-CakePhpGoToAppControllersAction">
-        <shortcut shortcut_string="SD-G D-C"/>
         <shortcut shortcut_string="D-J D-C"/>
     </action>
     <action id="org-cakephp-netbeans-ui-actions-CakePhpGoToAppFixturesAction">
         <shortcut shortcut_string="D-J D-F"/>
-        <shortcut shortcut_string="SD-G D-F"/>
     </action>
     <action id="org-cakephp-netbeans-ui-actions-CakePhpGoToAppHelpersAction">
-        <shortcut shortcut_string="SD-G D-H"/>
         <shortcut shortcut_string="D-J D-H"/>
     </action>
     <action id="org-cakephp-netbeans-ui-actions-CakePhpGoToAppModelsAction">
         <shortcut shortcut_string="D-J D-M"/>
-        <shortcut shortcut_string="SD-G D-M"/>
     </action>
     <action id="org-cakephp-netbeans-ui-actions-CakePhpGoToBehaviorsAction">
-        <shortcut shortcut_string="SD-G B"/>
         <shortcut shortcut_string="D-J B"/>
     </action>
     <action id="org-cakephp-netbeans-ui-actions-CakePhpGoToComponentsAction">
-        <shortcut shortcut_string="SD-G P"/>
         <shortcut shortcut_string="D-J P"/>
     </action>
     <action id="org-cakephp-netbeans-ui-actions-CakePhpGoToControllersAction">
-        <shortcut shortcut_string="SD-G C"/>
         <shortcut shortcut_string="D-J C"/>
     </action>
     <action id="org-cakephp-netbeans-ui-actions-CakePhpGoToFixturesAction">
-        <shortcut shortcut_string="SD-G F"/>
         <shortcut shortcut_string="D-J F"/>
     </action>
     <action id="org-cakephp-netbeans-ui-actions-CakePhpGoToHelpersAction">
         <shortcut shortcut_string="D-J H"/>
-        <shortcut shortcut_string="SD-G H"/>
     </action>
     <action id="org-cakephp-netbeans-ui-actions-CakePhpGoToImportantAction">
-        <shortcut shortcut_string="SD-G D-I"/>
         <shortcut shortcut_string="D-J D-I"/>
     </action>
     <action id="org-cakephp-netbeans-ui-actions-CakePhpGoToModelsAction">
         <shortcut shortcut_string="D-J M"/>
-        <shortcut shortcut_string="SD-G M"/>
     </action>
     <action id="org-cakephp-netbeans-ui-actions-CakePhpGoToTestCasesAction">
-        <shortcut shortcut_string="SD-G T"/>
         <shortcut shortcut_string="D-J T"/>
     </action>
     <action id="org-cakephp-netbeans-ui-actions-CakePhpGoToViewAction">
-        <shortcut shortcut_string="SD-G V"/>
         <shortcut shortcut_string="D-J V"/>
     </action>
     <action id="org-cakephp-netbeans-ui-actions-CakePhpGoToSmartAction">
-        <shortcut shortcut_string="SD-G S"/>
         <shortcut shortcut_string="D-J S"/>
     </action>
     <action id="org-netbeans-modules-profiler-actions-SelfSamplerAction">
@@ -89,9 +69,6 @@
     </action>
     <action id="org-netbeans-modules-xsl-actions-TransformAction">
         <shortcut shortcut_string="DO-T"/>
-    </action>
-    <action id="org-netbeans-modules-favorites-View">
-        <shortcut shortcut_string="D-3"/>
     </action>
     <action id="org-netbeans-modules-favorites-Select">
         <shortcut shortcut_string="SD-3"/>
@@ -146,16 +123,10 @@
     <action id="org-netbeans-modules-quicksearch-QuickSearchAction">
         <shortcut shortcut_string="D-I"/>
     </action>
-    <action id="output-window-clear">
-        <shortcut shortcut_string="D-L"/>
-    </action>
     <action id="copy-to-clipboard">
-        <shortcut shortcut_string="O-W"/>
         <shortcut shortcut_string="D-INSERT"/>
         <shortcut shortcut_string="COPY"/>
-    </action>
-    <action id="comment">
-        <shortcut shortcut_string="D-C D-C"/>
+        <shortcut shortcut_string="D-C"/>
     </action>
     <action id="uncomment">
         <shortcut shortcut_string="O-0 D-C D-C"/>
@@ -375,25 +346,24 @@
         <shortcut shortcut_string="O-F7"/>
     </action>
     <action id="org-openide-actions-SaveAction">
+        <shortcut shortcut_string="D-S"/>
         <shortcut shortcut_string="D-X D-S"/>
     </action>
     <action id="undo">
         <shortcut shortcut_string="UNDO"/>
         <shortcut shortcut_string="D-SLASH"/>
+        <shortcut shortcut_string="D-Z"/>
         <shortcut shortcut_string="D-X U"/>
     </action>
     <action id="toggle-typing-mode">
         <shortcut shortcut_string="INSERT"/>
     </action>
     <action id="redo">
-        <shortcut shortcut_string="SO-MINUS"/>
         <shortcut shortcut_string="SD-Z"/>
+        <shortcut shortcut_string="SO-MINUS"/>
     </action>
     <action id="org-netbeans-core-io-ui-IOWindowAction">
         <shortcut shortcut_string="D-4"/>
-    </action>
-    <action id="output-window-save-as">
-        <shortcut shortcut_string="D-S"/>
     </action>
     <action id="org-netbeans-core-actions-JumpPrevAction">
         <shortcut shortcut_string="S-F12"/>
@@ -515,9 +485,6 @@
         <shortcut shortcut_string="D-N"/>
     </action>
     <action id="adjust-window-center">
-        <shortcut shortcut_string="D-U D-L"/>
-    </action>
-    <action id="adjust-caret-center">
         <shortcut shortcut_string="D-L"/>
     </action>
     <action id="caret-previous-word">
@@ -575,11 +542,10 @@
     </action>
     <action id="find">
         <shortcut shortcut_string="FIND"/>
-        <shortcut shortcut_string="D-S"/>
     </action>
     <action id="org.openide.actions.FindAction">
         <shortcut shortcut_string="FIND"/>
-        <shortcut shortcut_string="D-S"/>
+        <shortcut shortcut_string="D-3"/>
     </action>
     <action id="org-netbeans-modules-search-ResultViewOpenAction">
         <shortcut shortcut_string="SD-0"/>
@@ -643,6 +609,9 @@
     </action>
     <action id="selection-begin-line">
         <shortcut shortcut_string="S-HOME"/>
+    </action>
+    <action id="selection-line-first-column">
+        <shortcut shortcut_string="F1"/>
     </action>
     <action id="selection-end-line">
         <shortcut shortcut_string="S-END"/>
