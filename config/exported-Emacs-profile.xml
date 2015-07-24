@@ -61,12 +61,6 @@
     <action id="org-netbeans-modules-db-sql-editor-ui-actions-SQLHistoryAction">
         <shortcut shortcut_string="SDO-H"/>
     </action>
-    <action id="org-cakephp-netbeans-ui-actions-ToPluralAction">
-        <shortcut shortcut_string="D-AT P"/>
-    </action>
-    <action id="org-cakephp-netbeans-ui-actions-ToSingularAction">
-        <shortcut shortcut_string="D-AT S"/>
-    </action>
     <action id="org-netbeans-modules-xsl-actions-TransformAction">
         <shortcut shortcut_string="DO-T"/>
     </action>
@@ -507,8 +501,6 @@
     </action>
     <action id="caret-begin-line">
         <shortcut shortcut_string="HOME"/>
-    </action>
-    <action id="caret-line-first-column">
         <shortcut shortcut_string="D-A"/>
     </action>
     <action id="caret-end-line">
