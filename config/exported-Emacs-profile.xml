@@ -453,10 +453,11 @@
         <shortcut shortcut_string="D-PLUS"/>
         <shortcut shortcut_string="D-EQUALS"/>
         <shortcut shortcut_string="D-ADD"/>
+        <shortcut shortcut_string="SD-SEMICOLON"/>
     </action>
     <action id="collapse-fold">
-        <shortcut shortcut_string="D-MINUS"/>
         <shortcut shortcut_string="D-SUBTRACT"/>
+        <shortcut shortcut_string="SD-MINUS"/>
     </action>
     <action id="cut-to-line-begin">
         <shortcut shortcut_string="O-0 D-K"/>
